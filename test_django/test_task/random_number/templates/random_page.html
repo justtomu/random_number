@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Number</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<script src="https://unpkg.com/htmlincludejs"></script>
+<include src="header"></include>
+<h3 id="number" class="w3-center context" ></h3>
+<script>
+    let socket = new WebSocket('ws://localhost:8000/ws/')  // <- NEED TO SET OWN WS_PATH
+    socket.onmessage = function (event) {
+        let data = JSON.parse(event.data)
+        console.log(data)
+        document.getElementById('number').innerText = data['message']
+    }
+</script>
+</body>
+</html>
