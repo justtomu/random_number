@@ -1,16 +1,16 @@
 # random_number
-Тестовое задание для компании ВЕБИМ.РУ  
+Test task for Webim.ru
 
-Приложение для генерации случайных чисел с интервалом в 5 секунд  
+An application for generating random numbers with an interval of 5 seconds
 
-Установка  
+installation  
 <code>pip3 install -r req.txt</code>
 
-Запуск  
+Run  
 <code>python3 manage.py runserver</code>
 
-Работу приложения можно проверить [тут](http://185.185.69.239/)  
+~~The operation of the application can be checked [here](http://185.185.69.239/)~~
 
-Скриншоты:  
-![Экран авторизации](https://i.ibb.co/2Fj1qF3/2022-01-23-15-37-22.png)
-![Главный экран](https://i.ibb.co/SNQMHcD/2022-01-23-15-37-34.png)
+Screenshots:  
+![Authtorization](https://i.ibb.co/2Fj1qF3/2022-01-23-15-37-22.png)
+![Main screen](https://i.ibb.co/SNQMHcD/2022-01-23-15-37-34.png)
